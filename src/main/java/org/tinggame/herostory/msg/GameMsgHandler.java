@@ -48,7 +48,7 @@ public class GameMsgHandler extends SimpleChannelInboundHandler<Object> {
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, Object msg) throws Exception {
         System.out.println("收到客户端消息,msgClazz=:"+msg.getClass().getName()+",msg="+msg);
-        ICmdHandler<? extends GeneratedMessageV3> cmdHandler = CmdHandlerFactory.create(msg);
+        ICmdHandler<? extends GeneratedMessageV3> cmdHandler = CmdHandlerFactory.create(msg.getClass());
         if(null != cmdHandler){
             cmdHandler.handle(channelHandlerContext, cast(msg));
         }

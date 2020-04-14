@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="274bd8e4-aa5f-4d93-923a-b3cc6dbea5dd" name="Default Changelist" comment="" />
+    <list default="true" id="274bd8e4-aa5f-4d93-923a-b3cc6dbea5dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/CmdHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/CmdHandlerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/GameMsgDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/GameMsgEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/GameMsgHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/ServerMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/ServerMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/ServerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/ServerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/tinggame/herostory/User.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,71 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/msg/GameMsgHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/CmdHandlerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/ICmdHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/UserEntryCmdHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="85" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/UserMoveToCmdHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/WhoElseIsHereCmdHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +42,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,11 +75,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="863" />
-    <option name="y" value="81" />
+    <option name="x" value="368" />
+    <option name="y" value="68" />
     <option name="width" value="1555" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -204,7 +157,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586855654626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586857312885" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
@@ -254,12 +207,12 @@
       <workItem from="1586503501021" duration="1848000" />
       <workItem from="1586740065530" duration="5614000" />
       <workItem from="1586757668644" duration="9802000" />
-      <workItem from="1586825775522" duration="14659000" />
+      <workItem from="1586825775522" duration="16367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31923000" />
+    <option name="totallyTimeSpent" value="33631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,7 +224,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="497" y="86" width="1555" height="990" extended-state="0" />
+    <frame x="379" y="95" width="1555" height="990" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596089" />
@@ -285,12 +238,12 @@
       <window_info id="YhView" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292011" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995795" visible="true" weight="0.35043806" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3283208" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995795" weight="0.35043806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956383" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32957393" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004205" side_tool="true" weight="0.39944905" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4995795" weight="0.32916147" />
@@ -455,16 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/ICmdHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/UserEntryCmdHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -495,10 +438,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/ICmdHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/msg/GameMsgHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="242">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,8 +460,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/tinggame/herostory/cmdHandler/CmdHandlerFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="253">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

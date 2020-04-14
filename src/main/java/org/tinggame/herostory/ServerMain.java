@@ -10,6 +10,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
+import org.tinggame.herostory.cmdHandler.CmdHandlerFactory;
 import org.tinggame.herostory.msg.GameMsgDecoder;
 import org.tinggame.herostory.msg.GameMsgEncoder;
 import org.tinggame.herostory.msg.GameMsgHandler;
@@ -21,6 +22,7 @@ import org.tinggame.herostory.msg.GameMsgHandler;
  */
 public class ServerMain {
     public static void main(String[] args) {
+        CmdHandlerFactory.init();
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
